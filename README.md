@@ -15,12 +15,27 @@ The project combines **SQL analytics** with **Power BI dashboard storytelling**.
 
 ---
 
+🌍 Dataset Context
+
+Used the public Olist Brazilian E-commerce dataset, which includes customer, order, payment, review, product, seller, and delivery data across multiple relational tables. This project was built to simulate real-world analyst workflows using complex transactional data.
+
+---
+
 ## 🛠 Tools Used
 
 * MySQL Workbench
 * SQL
 * Power BI
 * GitHub
+
+---
+
+Data Challenges Solved
+* Combined 9 relational tables into an analysis-ready data model using SQL joins
+* Built customer-level and order-level views for scalable analysis
+* Standardized timestamps to calculate delivery delays and purchase timelines
+* Created repeat purchase logic to accurately measure customer retention
+* Cleaned and structured raw ecommerce data for dashboard reporting
 
 ---
 
@@ -66,6 +81,15 @@ Some product categories retained customers nearly 3x better than platform averag
 
 ---
 
+📌 Business Recommendations
+* Improve communication and service recovery for customers facing 1–3 day delivery delays
+* Promote and cross-sell categories with above-average retention performance
+* Launch targeted win-back campaigns for one-time customers after first purchase
+* Introduce loyalty strategies for repeat high-value customers
+* Track customer satisfaction signals early to reduce churn risk
+
+---
+
 ## 📁 Files Included
 
 * SQL analysis queries
@@ -91,4 +115,4 @@ Some product categories retained customers nearly 3x better than platform averag
 ## 👤 Author
 
 **Sarthi Khator**
-Aspiring Data Analyst focused on SQL, Power BI, and business analytics.
+Transitioning into Data Analytics with hands-on experience in SQL, Power BI, and business-focused problem solving.
